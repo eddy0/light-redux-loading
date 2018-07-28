@@ -4,6 +4,17 @@ a light scale of redux loading
 
 ![loadingbar](https://raw.githubusercontent.com/eddy0/dailyReact/master/006-redux-loading/loading.gif)
 
+## core
+```
+import {
+    LoadingBar
+    showLoading,
+    hideLoading,
+    loadingReducer } from 'light-redux-loading'
+
+```
+
+
 ## useage
 
 #### component
