@@ -1,0 +1,20 @@
+{
+  "name": "light-redux-loading",
+  "version": "1.0.0",
+  "description": "a light redux loading",
+  "keywords": [
+    "redux",
+    "react",
+    "loading"
+  ],
+  "homepage": "https://github.com/eddy0/light-redux-loading",
+  "main": "index.js",
+  "repository": "https://github.com/eddy0/light-redux-loading.git",
+  "author": "eddy0 <awindy369@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-redux": "^5.0.7"
+  }
+}
