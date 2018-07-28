@@ -9,7 +9,10 @@
   ],
   "homepage": "https://github.com/eddy0/light-redux-loading",
   "main": "index.js",
-  "repository": "https://github.com/eddy0/light-redux-loading.git",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/eddy0/light-redux-loading.git"
+  },
   "author": "eddy0 <awindy369@gmail.com>",
   "license": "MIT",
   "dependencies": {
