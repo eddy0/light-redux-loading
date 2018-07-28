@@ -4,6 +4,11 @@ a light scale of redux loading
 
 ![loadingbar](https://raw.githubusercontent.com/eddy0/dailyReact/master/006-redux-loading/loading.gif)
 
+## npm
+```
+yarn add light-redux-loading
+```
+
 ## core
 ```
 import {
