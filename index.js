@@ -2,7 +2,6 @@ import React from 'react'
 import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 
-// action
 const LOADINGBAR_SHOW = 'LOADINGBAR_SHOW'
 const LOADINGBAR_HIDE = 'LOADINGBAR_HIDE'
 
@@ -20,7 +19,6 @@ const hideLoading = () => {
     }
 }
 
-// reducer
 const loadingReducer = (state = false, action) => {
     switch(action.type) {
         case LOADINGBAR_SHOW:
@@ -32,7 +30,6 @@ const loadingReducer = (state = false, action) => {
     }
 }
 
-// component
 class LoadingBar extends React.Component {
     static propTypes = {
         loading: PropTypes.bool,
@@ -140,7 +137,7 @@ const mapStateToProps = ({loading}) => {
 const ConnectedLoadingBar = connect(mapStateToProps)(LoadingBar)
 
 export {
-    ConnectedLoadingBar as LoadingBar,
+    ConnectedLoadingBar as default,
     showLoading,
     hideLoading,
     loadingReducer,

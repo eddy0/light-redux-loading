@@ -11,11 +11,13 @@ yarn add light-redux-loading
 
 ## core
 ```
+limport loadingReducer from 'light-redux-loading'
+
 import {
     LoadingBar
     showLoading,
     hideLoading,
-    loadingReducer } from 'light-redux-loading'
+     } from 'light-redux-loading'
 
 ```
 
@@ -24,7 +26,7 @@ import {
 
 #### component
 ```
-import {LoadingBar} from 'light-redux-loading'
+import LoadingBar from 'light-redux-loading'
 
 export default class Header extends React.Component {
   render() {
