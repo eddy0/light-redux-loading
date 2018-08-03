@@ -1,6 +1,6 @@
 {
   "name": "light-redux-loading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a light redux loading",
   "keywords": [
     "redux",
@@ -10,8 +10,8 @@
   "homepage": "https://github.com/eddy0/light-redux-loading",
   "main": "index.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/eddy0/light-redux-loading.git"
+    "type": "git",
+    "url": "https://github.com/eddy0/light-redux-loading.git"
   },
   "author": "eddy0 <awindy369@gmail.com>",
   "license": "MIT",
