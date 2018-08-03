@@ -30,10 +30,8 @@ const loadingReducer = (state = false, action) => {
     }
 }
 
+
 class LoadingBar extends React.Component {
-    static propTypes = {
-        loading: PropTypes.bool,
-    }
 
     static defaultProps = {
         loading: false,
@@ -127,6 +125,9 @@ class LoadingBar extends React.Component {
     }
 }
 
+LoadingBar.propTypes = {
+    loading: PropTypes.bool.isRequired,
+}
 
 const mapStateToProps = ({loading}) => {
     return {
