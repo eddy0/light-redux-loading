@@ -8,7 +8,7 @@
     "loading"
   ],
   "homepage": "https://github.com/eddy0/light-redux-loading",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/eddy0/light-redux-loading.git"
